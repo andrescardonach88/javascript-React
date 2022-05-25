@@ -1,7 +1,84 @@
 import logo from './logo.svg'; //LOS IMPORTS VAN PRIMERO
 import './App.css';
 
-function App() {
+function App() 
+/*TAREA # 1 JS.REACT.
+
+Se debe crear un Array de 5 objetos , donde cada objeto tendrá las 
+siguientes propiedades : id, nombre , correo , perfil (el campo perfil
+   es otro objeto que tiene las siguientes propiedades :
+    dirección , teléfono , sexo,edad)  */
+
+    let estudiante = [
+      {
+        id: 1,
+        nombre: 'Carlos Cardona',
+        correo: 'cacardona5@gmail.com',
+        perfil: 
+               {direccion: 'carrera 123',
+                telefono: 4404035,
+                sexo: 'masculino',
+                edad:10}
+      },
+
+      {
+        id: 2,
+        nombre: 'ANdres Chamorro',
+        correo: 'chamorro5@gmail.com',
+        perfil: 
+               {direccion: 'calle 123',
+                telefono: 3335656,
+                sexo: 'masculino',
+                edad:18}
+
+      },
+      {
+        id: 3,
+        nombre: 'Valentina Cardona',
+        correo: 'valentina@gmail.com',
+        perfil: 
+               {direccion: 'avenida 123',
+                telefono: 3109999,
+                sexo: 'femenino',
+                edad:20}
+      },
+
+      {
+        id: 4,
+        nombre: 'Fabian Chaguendo',
+        correo: 'chaguendo@gmail.com',
+        perfil: 
+               {direccion: 'diagonal 123',
+                telefono: 1109090,
+                sexo: 'masculino',
+                edad:50}
+      },
+
+      {
+        id: 5,
+        nombre: 'Socorro Gonzales',
+        correo: 'socorro@gmail.com',
+        perfil: 
+               {direccion: 'transversal 123',
+                telefono: 6606060,
+                sexo: 'masculino',
+                edad:34}
+      },
+
+    ]
+    
+  /*  Se debe crear una función que me retorne el perfil de un elemento 
+  del array , esta función debe recibir como parámetro el índice del elemento 
+  del array a retornar , ejemplo : quiero el elemento 1 del array, por lo que 
+  llamaré a la función así funciónQueMeRetornaElPerfil(0) , donde 0 es el
+   elemento del array que quiero
+*/
+
+
+
+
+
+{
   //LO PRIMERO ES DEFINIR VARIABLES
   //CODIGO LÓGICO DE LA VISTA VA AQUÍ
   const variable = 3.2;
@@ -95,3 +172,5 @@ function App() {
 }
 
 export default App;
+
+
